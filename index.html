@@ -1,11 +1,1877 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Start Page</title>
+
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet"
+        type="text/css">
+    <link href="./assets-from-limitless/global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet"
+        type="text/css">
+    <link href="./assets-from-limitless/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./assets-from-limitless/assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css">
+    <link href="./assets-from-limitless/assets/css/layout.min.css" rel="stylesheet" type="text/css">
+    <link href="./assets-from-limitless/assets/css/components.min.css" rel="stylesheet" type="text/css">
+    <link href="./assets-from-limitless/assets/css/colors.min.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+
+    <!-- Core JS files -->
+    <script src="./assets-from-limitless/global_assets/js/main/jquery.min.js"></script>
+    <script src="./assets-from-limitless/global_assets/js/main/bootstrap.bundle.min.js"></script>
+    <script src="./assets-from-limitless/global_assets/js/plugins/loaders/blockui.min.js"></script>
+    <!-- /core JS files -->
+
+    <!-- Theme JS files -->
+    <script src="./assets-from-limitless/global_assets/js/plugins/extensions/jquery_ui/interactions.min.js"></script>
+    <script src="./assets-from-limitless/global_assets/js/plugins/extensions/jquery_ui/touch.min.js"></script>
+
+
+    <script src="./assets-from-limitless/assets/js/app.js"></script>
+    <script src="./assets-from-limitless/global_assets/js/demo_pages/content_cards_draggable.js"></script>
+    <!-- /theme JS files -->
+
 </head>
+
 <body>
-    Hello World!
+
+    <!-- Main navbar -->
+    <div class="navbar navbar-expand-md navbar-dark sticky-top">
+        <div class="navbar-brand">
+            <a href="index.html" class="d-inline-block">
+                <img src="./assets-from-limitless/global_assets/images/logo_light.png" alt="">
+            </a>
+        </div>
+
+        <div class="d-md-none">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile">
+                <i class="icon-tree5"></i>
+            </button>
+            <button class="navbar-toggler sidebar-mobile-main-toggle" type="button">
+                <i class="icon-paragraph-justify3"></i>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar-mobile">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="navbar-nav-link sidebar-control sidebar-main-toggle d-none d-md-block">
+                        <i class="icon-paragraph-justify3"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="navbar-nav-link dropdown-toggle caret-0" data-toggle="dropdown">
+                        <i class="icon-git-compare"></i>
+                        <span class="d-md-none ml-2">Git updates</span>
+                        <span class="badge badge-pill bg-warning-400 ml-auto ml-md-0">9</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-content wmin-md-350">
+                        <div class="dropdown-content-header">
+                            <span class="font-weight-semibold">Git updates</span>
+                            <a href="#" class="text-default"><i class="icon-sync"></i></a>
+                        </div>
+
+                        <div class="dropdown-content-body dropdown-scrollable">
+                            <ul class="media-list">
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <a href="#"
+                                            class="btn bg-transparent border-primary text-primary rounded-round border-2 btn-icon"><i
+                                                class="icon-git-pull-request"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        Drop the IE <a href="#">specific hacks</a> for temporal inputs
+                                        <div class="text-muted font-size-sm">4 minutes ago</div>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <a href="#"
+                                            class="btn bg-transparent border-warning text-warning rounded-round border-2 btn-icon"><i
+                                                class="icon-git-commit"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        Add full font overrides for popovers and tooltips
+                                        <div class="text-muted font-size-sm">36 minutes ago</div>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <a href="#"
+                                            class="btn bg-transparent border-info text-info rounded-round border-2 btn-icon"><i
+                                                class="icon-git-branch"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        <a href="#">Chris Arney</a> created a new <span
+                                            class="font-weight-semibold">Design</span> branch
+                                        <div class="text-muted font-size-sm">2 hours ago</div>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <a href="#"
+                                            class="btn bg-transparent border-success text-success rounded-round border-2 btn-icon"><i
+                                                class="icon-git-merge"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        <a href="#">Eugene Kopyov</a> merged <span
+                                            class="font-weight-semibold">Master</span> and <span
+                                            class="font-weight-semibold">Dev</span> branches
+                                        <div class="text-muted font-size-sm">Dec 18, 18:36</div>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <a href="#"
+                                            class="btn bg-transparent border-primary text-primary rounded-round border-2 btn-icon"><i
+                                                class="icon-git-pull-request"></i></a>
+                                    </div>
+
+                                    <div class="media-body">
+                                        Have Carousel ignore keyboard events
+                                        <div class="text-muted font-size-sm">Dec 12, 05:46</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown-content-footer bg-light">
+                            <a href="#" class="text-grey mr-auto">All updates</a>
+                            <div>
+                                <a href="#" class="text-grey" data-popup="tooltip" title="Mark all as read"><i
+                                        class="icon-radio-unchecked"></i></a>
+                                <a href="#" class="text-grey ml-2" data-popup="tooltip" title="Bug tracker"><i
+                                        class="icon-bug2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <span class="badge bg-success ml-md-3 mr-md-auto">Online</span>
+
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a href="#" class="navbar-nav-link dropdown-toggle caret-0" data-toggle="dropdown">
+                        <i class="icon-people"></i>
+                        <span class="d-md-none ml-2">Users</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right dropdown-content wmin-md-300">
+                        <div class="dropdown-content-header">
+                            <span class="font-weight-semibold">Users online</span>
+                            <a href="#" class="text-default"><i class="icon-search4 font-size-base"></i></a>
+                        </div>
+
+                        <div class="dropdown-content-body dropdown-scrollable">
+                            <ul class="media-list">
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <img src="./assets-from-limitless/global_assets/images/placeholders/placeholder.jpg"
+                                            width="36" height="36" class="rounded-circle" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <a href="#" class="media-title font-weight-semibold">Jordana Ansley</a>
+                                        <span class="d-block text-muted font-size-sm">Lead web developer</span>
+                                    </div>
+                                    <div class="ml-3 align-self-center"><span
+                                            class="badge badge-mark border-success"></span></div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <img src="./assets-from-limitless/global_assets/images/placeholders/placeholder.jpg"
+                                            width="36" height="36" class="rounded-circle" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <a href="#" class="media-title font-weight-semibold">Will Brason</a>
+                                        <span class="d-block text-muted font-size-sm">Marketing manager</span>
+                                    </div>
+                                    <div class="ml-3 align-self-center"><span
+                                            class="badge badge-mark border-danger"></span></div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <img src="./assets-from-limitless/global_assets/images/placeholders/placeholder.jpg"
+                                            width="36" height="36" class="rounded-circle" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <a href="#" class="media-title font-weight-semibold">Hanna Walden</a>
+                                        <span class="d-block text-muted font-size-sm">Project manager</span>
+                                    </div>
+                                    <div class="ml-3 align-self-center"><span
+                                            class="badge badge-mark border-success"></span></div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <img src="./assets-from-limitless/global_assets/images/placeholders/placeholder.jpg"
+                                            width="36" height="36" class="rounded-circle" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <a href="#" class="media-title font-weight-semibold">Dori Laperriere</a>
+                                        <span class="d-block text-muted font-size-sm">Business developer</span>
+                                    </div>
+                                    <div class="ml-3 align-self-center"><span
+                                            class="badge badge-mark border-warning-300"></span></div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <img src="./assets-from-limitless/global_assets/images/placeholders/placeholder.jpg"
+                                            width="36" height="36" class="rounded-circle" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <a href="#" class="media-title font-weight-semibold">Vanessa Aurelius</a>
+                                        <span class="d-block text-muted font-size-sm">UX expert</span>
+                                    </div>
+                                    <div class="ml-3 align-self-center"><span
+                                            class="badge badge-mark border-grey-400"></span></div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown-content-footer bg-light">
+                            <a href="#" class="text-grey mr-auto">All users</a>
+                            <a href="#" class="text-grey"><i class="icon-gear"></i></a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a href="#" class="navbar-nav-link dropdown-toggle caret-0" data-toggle="dropdown">
+                        <i class="icon-bubbles4"></i>
+                        <span class="d-md-none ml-2">Messages</span>
+                        <span class="badge badge-pill bg-warning-400 ml-auto ml-md-0">2</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right dropdown-content wmin-md-350">
+                        <div class="dropdown-content-header">
+                            <span class="font-weight-semibold">Messages</span>
+                            <a href="#" class="text-default"><i class="icon-compose"></i></a>
+                        </div>
+
+                        <div class="dropdown-content-body dropdown-scrollable">
+                            <ul class="media-list">
+                                <li class="media">
+                                    <div class="mr-3 position-relative">
+                                        <img src="./assets-from-limitless/global_assets/images/placeholders/placeholder.jpg"
+                                            width="36" height="36" class="rounded-circle" alt="">
+                                    </div>
+
+                                    <div class="media-body">
+                                        <div class="media-title">
+                                            <a href="#">
+                                                <span class="font-weight-semibold">James Alexander</span>
+                                                <span class="text-muted float-right font-size-sm">04:58</span>
+                                            </a>
+                                        </div>
+
+                                        <span class="text-muted">who knows, maybe that would be the best thing for
+                                            me...</span>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="mr-3 position-relative">
+                                        <img src="./assets-from-limitless/global_assets/images/placeholders/placeholder.jpg"
+                                            width="36" height="36" class="rounded-circle" alt="">
+                                    </div>
+
+                                    <div class="media-body">
+                                        <div class="media-title">
+                                            <a href="#">
+                                                <span class="font-weight-semibold">Margo Baker</span>
+                                                <span class="text-muted float-right font-size-sm">12:16</span>
+                                            </a>
+                                        </div>
+
+                                        <span class="text-muted">That was something he was unable to do
+                                            because...</span>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <img src="./assets-from-limitless/global_assets/images/placeholders/placeholder.jpg"
+                                            width="36" height="36" class="rounded-circle" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="media-title">
+                                            <a href="#">
+                                                <span class="font-weight-semibold">Jeremy Victorino</span>
+                                                <span class="text-muted float-right font-size-sm">22:48</span>
+                                            </a>
+                                        </div>
+
+                                        <span class="text-muted">But that would be extremely strained and
+                                            suspicious...</span>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <img src="./assets-from-limitless/global_assets/images/placeholders/placeholder.jpg"
+                                            width="36" height="36" class="rounded-circle" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="media-title">
+                                            <a href="#">
+                                                <span class="font-weight-semibold">Beatrix Diaz</span>
+                                                <span class="text-muted float-right font-size-sm">Tue</span>
+                                            </a>
+                                        </div>
+
+                                        <span class="text-muted">What a strenuous career it is that I've
+                                            chosen...</span>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <div class="mr-3">
+                                        <img src="./assets-from-limitless/global_assets/images/placeholders/placeholder.jpg"
+                                            width="36" height="36" class="rounded-circle" alt="">
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="media-title">
+                                            <a href="#">
+                                                <span class="font-weight-semibold">Richard Vango</span>
+                                                <span class="text-muted float-right font-size-sm">Mon</span>
+                                            </a>
+                                        </div>
+
+                                        <span class="text-muted">Other travelling salesmen live a life of
+                                            luxury...</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="dropdown-content-footer justify-content-center p-0">
+                            <a href="#" class="bg-light text-grey w-100 py-2" data-popup="tooltip" title="Load more"><i
+                                    class="icon-menu7 d-block top-0"></i></a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown dropdown-user">
+                    <a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle"
+                        data-toggle="dropdown">
+                        <img src="./assets-from-limitless/global_assets/images/placeholders/placeholder.jpg"
+                            class="rounded-circle mr-2" height="34" alt="">
+                        <span>Victoria</span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a href="#" class="dropdown-item"><i class="icon-user-plus"></i> My profile</a>
+                        <a href="#" class="dropdown-item"><i class="icon-coins"></i> My balance</a>
+                        <a href="#" class="dropdown-item"><i class="icon-comment-discussion"></i> Messages <span
+                                class="badge badge-pill bg-blue ml-auto">58</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item"><i class="icon-cog5"></i> Account settings</a>
+                        <a href="#" class="dropdown-item"><i class="icon-switch2"></i> Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /main navbar -->
+
+
+    <!-- Page content -->
+    <div class="page-content">
+
+        <!-- Main sidebar -->
+        <div class="sidebar sidebar-dark sidebar-main sidebar-expand-md">
+
+            <!-- Sidebar mobile toggler -->
+            <div class="sidebar-mobile-toggler text-center">
+                <a href="#" class="sidebar-mobile-main-toggle">
+                    <i class="icon-arrow-left8"></i>
+                </a>
+                Navigation
+                <a href="#" class="sidebar-mobile-expand">
+                    <i class="icon-screen-full"></i>
+                    <i class="icon-screen-normal"></i>
+                </a>
+            </div>
+            <!-- /sidebar mobile toggler -->
+
+
+            <!-- Sidebar content -->
+            <div class="sidebar-content">
+
+                <!-- User menu -->
+                <div class="sidebar-user">
+                    <div class="card-body">
+                        <div class="media">
+                            <div class="mr-3">
+                                <a href="#"><img
+                                        src="./assets-from-limitless/global_assets/images/placeholders/placeholder.jpg"
+                                        width="38" height="38" class="rounded-circle" alt=""></a>
+                            </div>
+
+                            <div class="media-body">
+                                <div class="media-title font-weight-semibold">Victoria Baker</div>
+                                <div class="font-size-xs opacity-50">
+                                    <i class="icon-pin font-size-sm"></i> &nbsp;Santa Ana, CA
+                                </div>
+                            </div>
+
+                            <div class="ml-3 align-self-center">
+                                <a href="#" class="text-white"><i class="icon-cog3"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /user menu -->
+
+
+                <!-- Main navigation -->
+                <div class="card card-sidebar-mobile">
+                    <ul class="nav nav-sidebar" data-nav-type="accordion">
+
+                        <!-- Main -->
+                        <li class="nav-item-header">
+                            <div class="text-uppercase font-size-xs line-height-xs">Main</div> <i class="icon-menu"
+                                title="Main"></i>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">
+                                <i class="icon-home4"></i>
+                                <span>
+                                    Starter Page
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item nav-item-submenu">
+                            <a href="#" class="nav-link"><i class="icon-copy"></i> <span>Layouts</span></a>
+
+                            <ul class="nav nav-group-sub" data-submenu-title="Layouts">
+                                <li class="nav-item"><a href="index.html" class="nav-link active">Default layout</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- /main -->
+
+                        <!-- Forms -->
+                        <li class="nav-item-header">
+                            <div class="text-uppercase font-size-xs line-height-xs">Forms</div> <i class="icon-menu"
+                                title="Forms"></i>
+                        </li>
+                        <!-- /forms -->
+
+                        <!-- Components -->
+                        <li class="nav-item-header">
+                            <div class="text-uppercase font-size-xs line-height-xs">Components</div> <i
+                                class="icon-menu" title="Components"></i>
+                        </li>
+                        <li class="nav-item nav-item-submenu">
+                            <a href="#" class="nav-link"><i class="icon-grid"></i> <span>Basic components</span></a>
+                            <ul class="nav nav-group-sub" data-submenu-title="Basic components">
+                                <li class="nav-item"><a href="components_modals.html" class="nav-link">Modals</a></li>
+                                <li class="nav-item"><a href="components_dropdowns.html" class="nav-link">Dropdown
+                                        menus</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item nav-item-submenu">
+                            <a href="#" class="nav-link"><i class="icon-spinner2 spinner"></i>
+                                <span>Animations</span></a>
+                            <ul class="nav nav-group-sub" data-submenu-title="Animations">
+                                <li class="nav-item"><a href="animations_css3.html" class="nav-link">CSS3 animations</a>
+                                </li>
+                                <li class="nav-item nav-item-submenu">
+                                    <a href="#" class="nav-link">Velocity animations</a>
+                                    <ul class="nav nav-group-sub">
+                                        <li class="nav-item"><a href="animations_velocity_basic.html"
+                                                class="nav-link">Basic usage</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- /components -->
+
+                        <!-- Layout -->
+                        <li class="nav-item nav-item-submenu">
+                            <a href="#" class="nav-link"><i class="icon-indent-decrease2"></i> <span>Sidebars</span></a>
+                            <ul class="nav nav-group-sub" data-submenu-title="Sidebars">
+                                <li class="nav-item nav-item-submenu">
+                                    <a href="#" class="nav-link">Main sidebar</a>
+                                    <ul class="nav nav-group-sub">
+                                        <li class="nav-item"><a href="sidebar_default_collapse.html"
+                                                class="nav-link">Default collapsible</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item nav-item-submenu">
+                                    <a href="#" class="nav-link">Secondary sidebar</a>
+                                    <ul class="nav nav-group-sub">
+                                        <li class="nav-item"><a href="sidebar_secondary_after.html"
+                                                class="nav-link">After default</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item nav-item-submenu">
+                                    <a href="#" class="nav-link">Right sidebar</a>
+                                    <ul class="nav nav-group-sub">
+                                        <li class="nav-item"><a href="sidebar_right_default_collapse.html"
+                                                class="nav-link">Show - collapse main</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item nav-item-submenu">
+                                    <a href="#" class="nav-link">Content sidebar</a>
+                                    <ul class="nav nav-group-sub">
+                                        <li class="nav-item"><a href="sidebar_content_left.html" class="nav-link">Left
+                                                position</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item-divider"></li>
+                                <li class="nav-item"><a href="sidebar_components.html" class="nav-link">Sidebar
+                                        components</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item nav-item-submenu">
+                            <a href="#" class="nav-link"><i class="icon-menu3"></i> <span>Navbars</span></a>
+                            <ul class="nav nav-group-sub" data-submenu-title="Navbars">
+                                <li class="nav-item nav-item-submenu">
+                                    <a href="#" class="nav-link">Single navbar</a>
+                                    <ul class="nav nav-group-sub">
+                                        <li class="nav-item"><a href="navbar_single_top_static.html"
+                                                class="nav-link">Single top static</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item nav-item-submenu">
+                                    <a href="#" class="nav-link">Multiple navbars</a>
+                                    <ul class="nav nav-group-sub">
+                                        <li class="nav-item"><a href="navbar_multiple_top_static.html"
+                                                class="nav-link">Multiple top static</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item nav-item-submenu">
+                                    <a href="#" class="nav-link">Content navbar</a>
+                                    <ul class="nav nav-group-sub">
+                                        <li class="nav-item"><a href="navbar_component_single.html"
+                                                class="nav-link">Single navbar</a></li>
+                                        <li class="nav-item"><a href="navbar_component_multiple.html"
+                                                class="nav-link">Multiple navbars</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item-divider"></li>
+                                <li class="nav-item"><a href="navbar_colors.html" class="nav-link">Color options</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- /layout -->
+
+                        <!-- Data visualization -->
+                        <li class="nav-item nav-item-submenu">
+                            <a href="#" class="nav-link"><i class="icon-map5"></i> <span>Maps integration</span></a>
+                            <ul class="nav nav-group-sub" data-submenu-title="Maps integration">
+                                <li class="nav-item nav-item-submenu">
+                                    <a href="#" class="nav-link">Google maps</a>
+                                    <ul class="nav nav-group-sub">
+                                        <li class="nav-item"><a href="maps_google_basic.html"
+                                                class="nav-link">Basics</a></li>
+                                        <li class="nav-item"><a href="maps_google_controls.html"
+                                                class="nav-link">Controls</a></li>
+                                        <li class="nav-item"><a href="maps_google_markers.html"
+                                                class="nav-link">Markers</a></li>
+                                        <li class="nav-item"><a href="maps_google_drawings.html" class="nav-link">Map
+                                                drawings</a></li>
+                                        <li class="nav-item"><a href="maps_google_layers.html"
+                                                class="nav-link ">Layers</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- /data visualization -->
+
+                        <li class="nav-item nav-item-submenu">
+                            <a href="#" class="nav-link"><i class="icon-people"></i> <span>User pages</span></a>
+                            <ul class="nav nav-group-sub" data-submenu-title="User pages">
+                                <li class="nav-item"><a href="user_pages_list.html" class="nav-link">User list</a></li>
+                                <li class="nav-item"><a href="user_pages_cards.html" class="nav-link">User cards</a>
+                                </li>
+                                <li class="nav-item"><a href="user_pages_profile.html" class="nav-link">Simple
+                                        profile</a></li>
+                                <li class="nav-item"><a href="user_pages_profile_tabbed.html" class="nav-link">Tabbed
+                                        profile</a></li>
+                                <li class="nav-item"><a href="user_pages_profile_cover.html" class="nav-link">Profile
+                                        with cover</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item nav-item-submenu">
+                            <a href="#" class="nav-link"><i class="icon-atom2"></i> <span>Widgets</span></a>
+                            <ul class="nav nav-group-sub" data-submenu-title="Widgets">
+                                <li class="nav-item"><a href="widgets_content.html" class="nav-link">Content widgets</a>
+                                </li>
+                                <li class="nav-item"><a href="widgets_stats.html" class="nav-link">Statistics
+                                        widgets</a></li>
+                                <li class="nav-item"><a href="widgets_menu.html" class="nav-link disabled">Menu widgets
+                                        <span class="badge bg-transparent align-self-center ml-auto">Coming
+                                            soon</span></a></li>
+                                <li class="nav-item"><a href="widgets_form.html" class="nav-link disabled">Form widgets
+                                        <span class="badge bg-transparent align-self-center ml-auto">Coming
+                                            soon</span></a></li>
+                            </ul>
+                        </li>
+                        <!-- /page kits -->
+
+                    </ul>
+                </div>
+                <!-- /main navigation -->
+
+            </div>
+            <!-- /sidebar content -->
+
+        </div>
+        <!-- /main sidebar -->
+
+        <!-- Main content -->
+        <div class="content-wrapper">
+
+            <!-- Page header -->
+            <div class="page-header page-header-light">
+                <div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
+                    <div class="d-flex">
+                        <div class="breadcrumb">
+                            <a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
+                            <a href="content_cards_draggable.html" class="breadcrumb-item">Content</a>
+                            <span class="breadcrumb-item active">Draggable cards</span>
+                        </div>
+
+                        <a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
+                    </div>
+
+                    <div class="header-elements d-none">
+                        <div class="breadcrumb justify-content-center">
+                            <a href="#" class="breadcrumb-elements-item">
+                                <i class="icon-comment-discussion mr-2"></i>
+                                Support
+                            </a>
+
+                            <div class="breadcrumb-elements-item dropdown p-0">
+                                <a href="#" class="breadcrumb-elements-item dropdown-toggle" data-toggle="dropdown">
+                                    <i class="icon-gear mr-2"></i>
+                                    Settings
+                                </a>
+
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a href="#" class="dropdown-item"><i class="icon-enlarge5"></i> Add New Card</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a href="#" class="dropdown-item"><i class="icon-gear"></i> All settings</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /page header -->
+
+
+            <!-- Content area -->
+            <div class="content">
+
+                <!-- Full card sorting -->
+
+                <div class="row sortable-card">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 1</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 2</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 3</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 4</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 5</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 6</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 7</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 8</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 9</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">My Loaction</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive" id="mapDiv" style="height: 300px; width: 100%;">
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 11</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 12</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 13</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 14</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 15</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 16</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 17</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 18</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 19</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 20</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 21</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 22</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-header bg-white header-elements-inline">
+                                <h6 class="card-title">Card 23</h6>
+                                <div class="header-elements">
+                                    <div class="list-icons">
+                                        <a class="list-icons-item" data-action="collapse"></a>
+                                        <a class="list-icons-item" data-action="move"></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>Username</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td rowspan="2">1</td>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@mdo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mark</td>
+                                            <td>Otto</td>
+                                            <td>@TwBootstrap</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Jacob</td>
+                                            <td>Thornton</td>
+                                            <td>@fat</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td colspan="2">Larry the Bird</td>
+                                            <td>@twitter</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /full card sorting -->
+
+            </div>
+            <!-- /content area -->
+
+
+            <!-- Footer -->
+            <div class="navbar navbar-expand-lg navbar-light">
+                <div class="text-center d-lg-none w-100">
+                    <button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse"
+                        data-target="#navbar-footer">
+                        <i class="icon-unfold mr-2"></i>
+                        Footer
+                    </button>
+                </div>
+
+                <div class="navbar-collapse collapse" id="navbar-footer">
+                    <span class="navbar-text">
+                        &copy; 2015 - 2018. <a href="#">Limitless Web App Kit</a> by <a
+                            href="http://themeforest.net/user/Kopyov" target="_blank">Eugene Kopyov</a>
+                    </span>
+
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item"><a href="https://kopyov.ticksy.com/" class="navbar-nav-link"
+                                target="_blank"><i class="icon-lifebuoy mr-2"></i> Support</a></li>
+                        <li class="nav-item"><a href="http://demo.interface.club/limitless/docs/"
+                                class="navbar-nav-link" target="_blank"><i class="icon-file-text2 mr-2"></i> Docs</a>
+                        </li>
+                        <li class="nav-item"><a
+                                href="https://themeforest.net/item/limitless-responsive-web-application-kit/13080328?ref=kopyov"
+                                class="navbar-nav-link font-weight-semibold"><span class="text-pink-400"><i
+                                        class="icon-cart2 mr-2"></i> Purchase</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /footer -->
+
+        </div>
+        <!-- /main content -->
+
+    </div>
+    <!-- /page content -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA32UiH8zYsE-FAG1DLHcIoIVanDfArIZ8"></script>
+    <script src="./assets/js/load-map.js"></script>
+
 </body>
+
 </html>
